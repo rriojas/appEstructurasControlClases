@@ -19,7 +19,7 @@ namespace appEstructurasControlClases
 
     private void Form2_Load(object sender, EventArgs e)
     {
-
+      MessageBox.Show("Suma="+ Matematicas.Sumar(2, 3));
     }
   }
 }

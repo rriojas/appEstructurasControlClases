@@ -56,9 +56,10 @@ namespace appEstructurasControlClases
       this.textBox21 = new System.Windows.Forms.TextBox();
       this.textBox22 = new System.Windows.Forms.TextBox();
       this.textBox23 = new System.Windows.Forms.TextBox();
-      this.textBox24 = new System.Windows.Forms.TextBox();
-      this.textBox25 = new System.Windows.Forms.TextBox();
+      this.txtN1 = new System.Windows.Forms.TextBox();
+      this.txtN2 = new System.Windows.Forms.TextBox();
       this.button1 = new System.Windows.Forms.Button();
+      this.btnSumar = new System.Windows.Forms.Button();
       this.SuspendLayout();
       // 
       // btnAbrirForm2
@@ -258,19 +259,19 @@ namespace appEstructurasControlClases
       this.textBox23.Size = new System.Drawing.Size(100, 22);
       this.textBox23.TabIndex = 26;
       // 
-      // textBox24
+      // txtN1
       // 
-      this.textBox24.Location = new System.Drawing.Point(402, 407);
-      this.textBox24.Name = "textBox24";
-      this.textBox24.Size = new System.Drawing.Size(100, 22);
-      this.textBox24.TabIndex = 27;
+      this.txtN1.Location = new System.Drawing.Point(51, 231);
+      this.txtN1.Name = "txtN1";
+      this.txtN1.Size = new System.Drawing.Size(100, 22);
+      this.txtN1.TabIndex = 27;
       // 
-      // textBox25
+      // txtN2
       // 
-      this.textBox25.Location = new System.Drawing.Point(402, 423);
-      this.textBox25.Name = "textBox25";
-      this.textBox25.Size = new System.Drawing.Size(100, 22);
-      this.textBox25.TabIndex = 28;
+      this.txtN2.Location = new System.Drawing.Point(51, 279);
+      this.txtN2.Name = "txtN2";
+      this.txtN2.Size = new System.Drawing.Size(100, 22);
+      this.txtN2.TabIndex = 28;
       // 
       // button1
       // 
@@ -282,14 +283,25 @@ namespace appEstructurasControlClases
       this.button1.UseVisualStyleBackColor = true;
       this.button1.Click += new System.EventHandler(this.button1_Click);
       // 
+      // btnSumar
+      // 
+      this.btnSumar.Location = new System.Drawing.Point(173, 279);
+      this.btnSumar.Name = "btnSumar";
+      this.btnSumar.Size = new System.Drawing.Size(75, 23);
+      this.btnSumar.TabIndex = 30;
+      this.btnSumar.Text = "Sumar";
+      this.btnSumar.UseVisualStyleBackColor = true;
+      this.btnSumar.Click += new System.EventHandler(this.btnSumar_Click);
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(903, 501);
+      this.Controls.Add(this.btnSumar);
       this.Controls.Add(this.button1);
-      this.Controls.Add(this.textBox25);
-      this.Controls.Add(this.textBox24);
+      this.Controls.Add(this.txtN2);
+      this.Controls.Add(this.txtN1);
       this.Controls.Add(this.textBox23);
       this.Controls.Add(this.textBox22);
       this.Controls.Add(this.textBox21);
@@ -354,9 +366,10 @@ namespace appEstructurasControlClases
     private System.Windows.Forms.TextBox textBox21;
     private System.Windows.Forms.TextBox textBox22;
     private System.Windows.Forms.TextBox textBox23;
-    private System.Windows.Forms.TextBox textBox24;
-    private System.Windows.Forms.TextBox textBox25;
+    private System.Windows.Forms.TextBox txtN1;
+    private System.Windows.Forms.TextBox txtN2;
     private System.Windows.Forms.Button button1;
+    private System.Windows.Forms.Button btnSumar;
   }
 }
 

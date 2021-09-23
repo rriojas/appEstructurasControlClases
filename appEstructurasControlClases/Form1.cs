@@ -57,5 +57,24 @@ namespace appEstructurasControlClases
       }
 
     }
+
+    private void btnSumar_Click(object sender, EventArgs e)
+    {
+      Alumno x;
+      Alumno y;
+
+      x = new Alumno();
+      y = new Alumno();
+
+      x.Contar(2);
+      y.Contar(4);
+
+      int n1 = int.Parse(txtN1.Text);
+      int n2 = int.Parse(txtN2.Text);
+
+      int r=Matematicas.Sumar(n1, n2);
+      
+      MessageBox.Show("Suma=" + r);
+    }
   }
 }
